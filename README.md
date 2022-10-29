@@ -1,4 +1,4 @@
-# FundamentosApp
+# CounterApp
 
 ## Project setup
 ```
