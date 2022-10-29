@@ -1,4 +1,4 @@
-# fundamentos
+# FundamentosApp
 
 ## Project setup
 ```
