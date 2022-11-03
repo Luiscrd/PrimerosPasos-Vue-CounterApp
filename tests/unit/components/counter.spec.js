@@ -13,8 +13,6 @@ describe('Counter Component', () => {
 
     test('Debe de hacer mach con el snapshot', () => {
 
-        const wrapper = shallowMount(Counter)
-
         expect(wrapper.html()).toMatchSnapshot()
 
     })
