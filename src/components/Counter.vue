@@ -1,12 +1,12 @@
 <template>
     <div class="d-flex flex-column">
         <div class="container mt-4">
-            <h1>{{ title }}: {{ start }}</h1>
+            <h1>{{ customTitle }}: {{ counter }}</h1>
             <hr>
-            <div class="d-flex align-items-center">
+            <div class="buetons-box d-flex align-items-center">
                 <h3>Numero: </h3>
                 <button type="button" class="btn btn-primary" @click="decrese()">-1</button>
-                <h3>{{ counter }}</h3>
+                <h3 data-testid="counter">{{ counter }}</h3>
                 <button type="button" class="btn btn-primary" @click="icrise()">+1</button>
             </div>
             <hr>
@@ -22,13 +22,13 @@ export default {
     props: {
         title: {
             type: String,
-            defaul: 'Counter'
+            default: 'Counter'
         },
         start: {
             type: Number,
-            defaul: 10,
+            default: 10,
             validator( value ) {
-                return value > 0
+                return value >= 0
             }
         }
     },
@@ -48,6 +48,9 @@ export default {
     computed: {
         squereCounter() {
             return this.counter * this.counter
+        },
+        customTitle() {
+            return this.title
         }
     }
 }
