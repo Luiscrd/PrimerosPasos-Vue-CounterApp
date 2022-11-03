@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component Debe de hacer mach con el snapshot 1`] = `
+<div class="toolbar" role="banner"><img width="100" alt="Lc Logo" src=""><span>FuandamentoApp - Vue</span><img width="50" alt="Vue Logo" src="">
+  <div class="spacer"></div><a href="https://github.com/Luiscrd" target="_blank" class="link-github"><span class="span-lc">LcrPrograming</span><img src="" alt="Github" class="logo-github"></a>
+</div>
+`;

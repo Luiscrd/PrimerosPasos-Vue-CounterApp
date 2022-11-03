@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component Debe de hacer mach con el snapshot 1`] = `<div class="footer mt-auto"><span class="by-footer">By: LcrPrograming</span><a href="https://www.linkedin.com/in/luis-carballo-rua-3b4763248/" target="_blank"><img src="" alt="Linked In" class="logo-liked"></a></div>`;
